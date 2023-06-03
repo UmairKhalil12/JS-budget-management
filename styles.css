@@ -1,0 +1,186 @@
+*{
+    margin: 0%;
+    /* background-color: rgb(230, 159, 65); */
+}
+
+.heading{
+    text-align: center;
+}
+
+body{
+    background-color:goldenrod;
+
+}
+
+/* .container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#expense_form{
+    display: flex;
+    justify-content: center;
+}
+
+#add_button{
+    text-align: center;
+    width: 15%;
+    height: 25px;
+    background-color: goldenrod;
+    border: 2px solid blue;
+    border-radius: 5px;
+
+}
+
+#add_button:hover{
+    background-color: lightgreen;
+    
+    border-color: darkgreen;
+}
+
+#add_expense{
+    text-align: center;
+    width: 15%;
+    height: 25px;
+    background-color: goldenrod;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+#add_expense:hover{
+    background-color: lightgreen;
+   
+    border-color: darkgreen;
+}
+
+#monthlyBudget{
+    margin-right: 12%;
+    text-align: center;
+    border: transparent;
+    width: 100%;
+    background-color:goldenrod;
+    border: 1px solid black;
+    height: 20px;
+    
+}
+
+#error{
+    text-align: center;
+    color: brown;
+    font-style: italic;
+    
+}
+
+#expense_form{
+    padding: 8px;
+}
+
+.Result_table{
+    display: flex;
+    justify-content: center;
+}
+
+#displayResult{
+    padding: 16px;
+    margin: 11%;
+    background-color:transparent;
+}
+
+#displayResult th {
+    padding: 5px;
+    margin: 1%;
+    text-align: center;
+}
+
+#displayResult td {
+    padding: 5px;
+    margin: 1%;
+    text-align: center;
+}
+
+.header1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#displayingBudget{
+    margin: 2%;
+    width: 100%;
+    padding: 8px;
+    color: green;
+    float: right;
+    
+}
+
+#remainingBudget{
+    margin: 2%;
+    width: 100%;
+    padding: 8px;
+    float: left;
+    color: red;
+    
+}
+
+#editButton{
+    position: relative;
+    background-color: cornflowerblue;
+    border: 1px solid blue;
+    border-radius: 5px;
+
+}
+
+.main-div{
+    margin: 1%;
+    width: 1000px;
+    background-color: gold;
+    position: relative;
+    top: 50%;
+    left: 10%;
+    border-radius: 15px;
+
+
+}
+
+#inputExpense{
+    background-color: goldenrod;
+}
+
+#description{
+    background-color: goldenrod;
+}
+
+#dateInput{
+    background-color: goldenrod;
+}
+
+#Categories{
+    background-color: goldenrod;
+}

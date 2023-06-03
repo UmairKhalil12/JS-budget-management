@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App </title>
+    <link href="./styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main-div">
+
+
+        <h1 class="heading">Budgetting App</h1>
+
+        <br />
+
+
+
+        <div class="form">
+            <form>
+                <input type="text" id="monthlyBudget" placeholder="Enter Budget">
+                <br />
+                <p id="error"> </p>
+            </form>
+
+        </div>
+
+        <br /> 
+
+
+        <div class="button">
+            <button id="add_button" onclick="TakeValue()">Add Budget</button>
+
+        </div>
+
+        <br /> <br />
+
+        <div class="header1">
+            <div>
+                <h3 id="displayingBudget"></h3>
+            </div>
+
+            <div>
+                <h3 id="remainingBudget"></h3>
+            </div>
+
+
+        </div>
+
+        <br /> <br />
+
+        <div id="expense_form">
+
+            <input type="text" placeholder="Enter Expense" id="inputExpense"> &nbsp;
+            <input type="text" placeholder="Enter Description" id="description"> &nbsp;
+            <input type="date" placeholder="Enter Date" id="dateInput"> &nbsp;
+
+            <select id="Categories">
+                <option value="">Select Category</option>
+                <option>Food & Resturant Bills</option>
+                <option>Travelling Expenses</option>
+                <option>House Hold or Maintainance Expenses</option>
+                <option>Travelling Expenses</option>
+                <option>Grocery</option>
+                <option>Shopping</option>
+                <option>Fees , Bill Payment Expenses</option>
+
+            </select>
+
+            <br /> <br />
+
+        </div>
+
+        <br />
+
+        <div class="button2">
+            <button id="add_expense" onclick="saving()">Add Expense</button>
+        </div>
+
+        <div class="Result_table">
+            <table id="displayResult">
+
+            </table>
+        </div>
+
+    </div>
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
